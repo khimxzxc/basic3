@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.first .menu a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.first .link {
+    display: flex;
+    gap: 35px;
+
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    color: #722ED1;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 23px;
+    border: 1px solid #722ED1;
+}
+
+.container {
+    gap: 88px;
+    display: flex;
+    
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.first__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    background-color: #E2F1FF;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+
+.first .menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.content {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .left {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.content .more {
+    display: flex;
+    gap: 12px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 246px;
+    padding: 8px 16px;
+}
+
+.more .nex {
+    color: #722ED1;
+    gap: 8px;
+}
+
+.more .nex a {
+    text-decoration: underline;
+    color: #722ED1;
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+}
+
+.text {
+    opacity:0.5;
+}
+
+.buttons {
+    display: flex;
+    gap: 24px;
+}
+
+
+.moreone {
+    background-color: #722ED1;
+    color: #fff;
+}
+
+.moretwo {
+    color: #722ED1;
+    border: #fff;
+}
+
+.section {
+   display: flex;
+   justify-content: center;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.bigdata {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.bigdata .why {
+    display: flex;
+    gap: 12px;
+    border-radius: 20px;
+    background: #F7F1FF;
+    width: 150px;
+    padding: 8px 16px;
+}
+
+.bigdata span {
+    color: #722ED1;
+    font-weight: 500;
+}
+
+.bigdata .title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #160637;
+}
+
+.bigdata .text {
+    text-align: center;
+    font-weight: 500;
+}
+
+.bigdata .card {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-self: stretch;
+ 
+}
+
+.card .cardone {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+}
+
+.card .title {
+    font-size: 16px;
+    color: #160637;
+    font-weight: 700;
+}
+
+.card .text {
+    font-weight: 500;
+}
+
+.card .cardtwo {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .cardthree {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    gap: 85px;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+}
+
+.product .launch {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+}
+
+.launch .ProductTeams {
+    display: flex;
+    gap: 12px;
+    border-radius: 50px;
+    background: #F7F1FF;
+    width: 200px;
+    padding: 8px 16px;
+  
+}
+
+.product span {
+    color: #722ED1;
+    font-weight: 500; 
+}
+
+.launch .title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #160637;
+}
+
+.launch .text {
+    font-weight: 500;
+}
+
+.testimonial {
+    display: flex;
+    background: #F9F0FF;
+    justify-content: center;
+    padding: 158px 240px;
+    align-items: center;
+}
+
+.testimonial .container {
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.testimonial .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.main .title {
+    color: #160637;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+ 
+    font-family: 'Lato', sans-serif;
+
+}
+.main .textlogo {
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+   
+}
+
+.main .clientlogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 95px;
+}
+
+.engineeringteams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.engineeringteams .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+
+}
+
+.main .datadriven {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.main .compass {
+    display: flex;
+    gap: 12px;
+    border-radius: 50px;
+    background: #F7F1FF;
+    padding: 8px 16px;
+}
+
+.engineeringteams span {
+    color: #722ED1;
+    font-weight: 500;
+}
+
+.datadriven .title {
+    color: #160637;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.datadriven .text {
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #FBFCFF;
+    padding: 58px 0;
+    display: flex;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 248px;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 46px;
+    
+    
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.footer .footer__text {
+    color: #160637;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer .footer__logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.footer .footer__left .socialmedia {
+    display: flex;
+    
+    gap: 12px;
+    
+}
+
+.footer .footer__left .socialmedia a {
+    width: 16px;
+    height: 16px;
+}
+
+
+.footer .footer__right {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.footer .footer__block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer__title {
+    color: #160637;
+    font-weight: 700;  
+}
+
+.footer .footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer .footer__links a {
+    color: #160637;
+    font-size: 12px;
+    text-decoration: none;
+}
